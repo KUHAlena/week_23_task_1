@@ -1,0 +1,36 @@
+.tariff {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+    transition: transform 0.3s ease; 
+}
+.price { 
+    font-size: 2em; 
+}
+
+.highlight {
+    border-color: #ff9800;
+    background-color: #fff3e0;
+}
+
+.tariff300 {
+    background-color: #0ccae7;
+}
+
+.tariff450 {
+    background-color: #0a9874;
+}
+
+.tariff550 {
+    background-color: #b11d12;
+}
+
+.tariff1000 {
+    background-color: #0e0e0e;
+}
+
+.tariffLarge { 
+    transform: scale(1.1);
+}
