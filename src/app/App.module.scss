@@ -1,10 +1,10 @@
-.App {
+.app {
     text-align: center;
 }
-
+  
 .tariffs {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }

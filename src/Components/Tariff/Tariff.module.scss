@@ -4,33 +4,36 @@
     border-radius: 10px;
     margin: 10px;
     color: #fff;
-    transition: transform 0.3s ease; 
-}
-.price { 
-    font-size: 2em; 
-}
-
-.highlight {
-    border-color: #ff9800;
-    background-color: #fff3e0;
-}
-
-.tariff300 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .tariff:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .price {
+    font-size: 2em;
+  }
+  
+  .tariff300 {
     background-color: #0ccae7;
-}
-
-.tariff450 {
+  }
+  
+  .tariff450 {
     background-color: #0a9874;
-}
-
-.tariff550 {
+  }
+  
+  .tariff550 {
     background-color: #b11d12;
-}
-
-.tariff1000 {
+  }
+  
+  .tariff1000 {
     background-color: #0e0e0e;
-}
-
-.tariffLarge { 
-    transform: scale(1.1);
-}
+  }
+  
+  .selected {
+    border: 2px solid #7cf008;
+  }
+  
